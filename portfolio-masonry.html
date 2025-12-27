@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio </title>
+
+    <!-- Third Party Plugins -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@400;700;900&family=Six+Caps&display=swap" rel="stylesheet">
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body data-bs-theme="dark">
+    
+    <div class="nav nav-overlay">
+      <div class="nav__content">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="index.html" class="hover-target">Home</a></li>
+          <li class="nav__list-item  active-nav"><a href="portfolio-masonry.html" class="hover-target">Portfolio</a></li>
+          <li class="nav__list-item"><a href="index.html#contact" class="hover-target">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+<!--lista de IDs
+cortos
+formula-student
+...
+-->
+    <nav id="navbar" class="position-absolute">
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+			<span></span>
+			</label>
+		</nav>
+    
+  <section id="portfolio-all" class="pt-4 pt-lg-5 px-4 px-lg-5 my-5 py-5">
+    <div class="section-header my-5" data-aos="fade-up">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <span class="introduction mb-3 d-block">cortos, marketing & publicidad, sesiones de fotografía, retratos...</span>
+          <h4 class="name mb-4 txt-fx slide-up text-lowercase">Portfolio</h4>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up">
+        </div>
+      </div>
+    </div>
+    <!--
+    ULTIMOS PROYECTOS
+    -->
+    <div class="section-header my-5" data-aos="fade-up">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h3 id="formula-student">FORMULA STUDENT PORTUGAL 2025</h3>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up">
+        </div>
+      </div>
+    </div>
+   
+    <div class="swiper portfolio-Swiper portfolio-content py-4" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="image-holder">
+            <a href="cortos.html" title="portfolio details">
+              <!--ID center img: importante para hacer que esté centrado el style-->
+              <img id="center-img" src="images/formula-student/formula-student-racing-2025.jpg"
+                alt="portfolio" class="img-fluid"></a>
+          </div>
+          <div class="caption d-flex justify-content-between align-items-center">
+            <div class="title">Coche de Ü-Motorsport</div>
+            <a href="#" class="image-format bg-orange">svg</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="image-holder">
+            <a href="formula-student-2025.html" title="portfolio details">
+              <img  id="center-img" src="images/formula-student/publicidad-1.jpg"
+                alt="portfolio" class="img-fluid"></a>
+          </div>
+          <div class="caption d-flex justify-content-between align-items-center">
+            <div class="title">Publicidad Effespiti</div>
+            <a href="#" class="image-format bg-orange">svg</a>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="image-holder">
+            <a href="single-portfolio.html" title="portfolio details">
+              <img  id="center-img" src="images/port-item3.jpg" 
+                alt="portfolio" class="img-fluid"></a>
+          </div>
+          <div class="caption d-flex justify-content-between align-items-center">
+          <!--
+            <div class="title">Retratos y comisiones 2025</div>
+            -->
+            <a href="#" class="image-format bg-blue">psd</a>
+          </div>
+        </div>
+      
+      </div>
+      <div class="swiper-pagination mt-5"></div>
+    </div>
+    <!--
+    CORTOS CON ENLACE AL YOUTUBE
+    -->
+    <div class="section-header my-5" data-aos="fade-up">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h3 id="cortos">CORTOS</h3>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up">
+        </div>
+      </div>
+    </div>
+    <div class="swiper portfolio-Swiper portfolio-content py-4" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="image-holder">
+            <a href="https://www.youtube.com/watch?v=kxf8ZFyqUIQ" title="Enlace a YouTube"><img id="center-img" src="images/cortos/parrando-corto-banner.jpg"
+                alt="portfolio" class="img-fluid"></a>
+          </div>
+          <div class="caption d-flex justify-content-between align-items-center">
+            <div class="title">El ascenso del Doctor Parrando</div>
+            <a href="#" class="image-format bg-orange">svg</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image-holder">
+            <a href="https://www.youtube.com/watch?v=CkUr5sOX1ZM" title="Enlace a YouTube"><img id="center-img" src="images/cortos/a-mal-gama-banner.jpg"
+                alt="portfolio" class="img-fluid"></a>
+          </div>
+          <div class="caption d-flex justify-content-between align-items-center">
+            <div class="title">A mal gama</div>
+            <a href="#" class="image-format bg-orange">svg</a>
+          </div>
+        </div>
+      
+       
+      
+      </div>
+      <div class="swiper-pagination mt-5"></div>
+    </div>
+  </section>
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-1.11.0.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
